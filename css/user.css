@@ -1,0 +1,133 @@
+html body {
+  font-family: "Lato", sans-serif !important; }
+
+nav.navbar-default {
+  background: none;
+  border: none; }
+  nav.navbar-default .navbar-brand {
+    height: 70px; }
+  nav.navbar-default .navbar-toggle {
+    display: block;
+    background: rgba(206, 22, 34, 0.4);
+    border: 1px solid #fff;
+    margin-top: 20px;
+    transition: all .8s;
+    -webkit-transition: all .8s; }
+    nav.navbar-default .navbar-toggle:hover {
+      background: rgba(206, 22, 34, 0.9); }
+    nav.navbar-default .navbar-toggle:focus {
+      background: rgba(206, 22, 34, 0.9); }
+    nav.navbar-default .navbar-toggle .icon-bar {
+      background-color: #fff; }
+nav.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.8); }
+nav .tagline {
+  color: #fff;
+  font-style: italic;
+  margin-top: 24px;
+  font-size: 16px;
+  display: none; }
+  @media (min-width: 768px) {
+    nav .tagline {
+      margin-top: 20px;
+      display: block; } }
+  @media (min-width: 992px) {
+    nav .tagline {
+      margin-top: 18px; } }
+  @media (min-width: 1200px) {
+    nav .tagline {
+      margin-top: 24px; } }
+
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 35% 0 0 0;
+  position: relative; }
+  @media (min-width: 768px) {
+    #header {
+      padding: 18% 0 0 0; } }
+  #header h2 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px; }
+    @media (min-width: 768px) {
+      #header h2 {
+        font-size: 52px; } }
+    #header h2 strong {
+      font-weight: 400; }
+  #header button {
+    background: rgba(206, 22, 34, 0.4);
+    border-radius: 30px;
+    border: 1px solid #fff;
+    padding: 15px 60px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    color: #fff;
+    transition: all .8s;
+    -webkit-transition: all .8s; }
+    #header button:hover {
+      background: rgba(206, 22, 34, 0.7); }
+    @media (min-width: 768px) {
+      #header button {
+        margin-top: 50px; } }
+  #header .scroll {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+    margin: 0; }
+    @media (min-width: 768px) {
+      #header .scroll {
+        bottom: 20px; } }
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 40px; }
+  h1 strong {
+    font-weight: 400; }
+
+#intro {
+  text-align: center;
+  color: #000;
+  padding: 80px 0; }
+
+#services #bumperrepair {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/bumperpod.jpg"); }
+#services #dentremoval {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/dentpod.jpg"); }
+#services #trimanddash {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/trimpod.jpg"); }
+#services #alloywheel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/alloypod.jpg"); }
+#services #leatherupholstery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/leatherpod.jpg"); }
+#services #glasschips {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/glasschip.jpg"); }
+#services .servicepod {
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center; }
+  #services .servicepod p {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #fff; }
+  #services .servicepod button {
+    background: none;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    padding: 15px 60px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all .8s;
+    transition: all .8s; }
+    #services .servicepod button:hover {
+      background: rgba(206, 22, 34, 0.6); }
+
+/*# sourceMappingURL=user.css.map */
