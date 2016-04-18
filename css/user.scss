@@ -43,7 +43,7 @@ nav {
 		}
 	}
 	&.top-nav-collapse {
-		background:rgba(0,0,0,0.8);
+		background:rgba(0,0,0,0.9);
 	}
 	.tagline {
 		color:#fff;
@@ -63,7 +63,6 @@ nav {
 		}
 	}
 }
-
 #header {
 	background-image:linear-gradient(
       rgba(0, 0, 0, 0.5), 
@@ -72,12 +71,11 @@ nav {
 	background-size:cover;
 	background-attachment:fixed;
 	text-align:center;
-	padding:35% 0 0 0;
+	// padding:35% 0 0 0;
 	position:relative;
 	@media (min-width:$screen-sm) {
-		padding:18% 0 0 0;
+		// padding:18% 0 0 0;
 	}
-
 	h2 {
 		font-weight: $thin;
 		color:#fff;
@@ -89,22 +87,30 @@ nav {
 			font-weight:$reg;
 		}
 	}
-	button {
-		background:rgba(206,22,34,0.4);
-		border-radius:30px;
-		border:1px solid #fff;
-		padding:15px 60px;
-		font-size:24px;
-		line-height:24px;
-		margin-top:10px;
-		color:#fff;
-		transition:all .8s;
-		-webkit-transition:all .8s;
-		&:hover {
-			background:rgba(206,22,34,0.7);
-		}
-		@media (min-width:$screen-sm) {
-			margin-top:50px;
+
+	#banner-text {
+		position:absolute;
+		width:100%;
+		top:50%;
+		left:0;
+		
+		button {
+			background:rgba(206,22,34,0.4);
+			border-radius:30px;
+			border:1px solid #fff;
+			padding:15px 60px;
+			font-size:24px;
+			line-height:24px;
+			margin-top:10px;
+			color:#fff;
+			transition:all .8s;
+			-webkit-transition:all .8s;
+			&:hover {
+				background:rgba(206,22,34,0.7);
+			}
+			@media (min-width:$screen-sm) {
+				margin-top:50px;
+			}
 		}
 	}
 	.scroll {
@@ -120,17 +126,76 @@ nav {
 		}
 	}
 }
-h1 {
-	font-weight:$thin;
-	margin-bottom:40px;
-	strong {
-		font-weight:$reg;
-	}
-}
-#intro {
+
+.content-area {
 	text-align:center;
 	color:#000;
 	padding:80px 0;
+	h1 {
+		font-weight:$thin;
+		margin-top:0;
+		margin-bottom:40px;
+		strong {
+			font-weight:$reg;
+		}
+	}
+	h2 {
+		font-size:30px;
+		font-weight:$thin;
+		margin-bottom:20px;
+	}
+	p {
+		font-size:16px;
+		margin-bottom:25px;
+	}
+	form {
+		input, select, textarea {
+			width:100%;
+			border:1px solid #000;
+			border-radius:30px;
+			padding:10px 20px;
+			font-size:24px;
+			margin-bottom:40px;
+			font-weight:300;
+			&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			    color:#000;
+			    font-weight:300;
+			}
+			&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:#000;
+			   opacity:1;
+			   font-weight:300;
+			}
+			&::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:#000;
+			   opacity:1;
+			   font-weight:300;
+			}
+			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			   color:#000;
+			   font-weight:300;
+			}
+			&#submit {
+				background:$red;
+				border:1px solid #000;
+				color:#fff;
+				transition:all .8s;
+				-webkit-transition:all .8s;
+				&:hover {
+					background:none;
+					color:#000;
+				}
+			}
+		}
+		textarea {
+			min-height:250px;
+		}
+	}
+}
+
+hr {
+	margin:0;
+	border-top:1px solid #000;
 }
 
 #services {
@@ -197,3 +262,201 @@ h1 {
 	}
 }
 
+#testimonials {
+	.testimonial {
+		font-size:16px;
+		font-weight:$reg;
+		font-style:italic;
+		margin-top:30px;
+	}
+	.testimonial-author {
+		font-size:18px;
+		font-weight:$bold;
+	}
+}
+
+#callbanner {
+	text-align:center;
+	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url('../images/callbanner.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+	padding:80px 0;
+	@media (min-width:$screen-md) {
+		padding:160px 0;
+	}
+	button {
+		border-radius:30px;
+		border:1px solid #fff;
+		background:none;
+		color:#fff;
+		width:100%;
+		padding:5px 0;
+		margin-top:40px;
+		p {
+			margin:0 0 5px 0;
+			font-size:24px;
+			line-height:24px;
+			font-weight:$thin;
+			span {
+				font-weight:$reg;
+				font-size:18px;
+			}
+			&#emailaddress {
+				font-size:16px;
+			}
+		}
+	}
+}
+
+#footer {
+	background:#0b0b0b;
+	padding:80px 0;
+	text-align:center;
+	ul.footernav {
+		padding:0;
+		margin:40px 0;
+		li {
+			display:inline-block;
+			font-size:18px;
+			font-weight:100;
+			margin:0 20px;
+			a {
+				color:#fff;
+			}
+		}
+	}
+	p {
+		color:#fff;
+		font-size:16px;
+		font-weight:300;
+		margin:0;
+	}
+}
+
+.innerheader {
+	background-attachment:fixed;
+	background-size:cover;
+	padding:100px 0;
+	text-align:center;
+	@media (min-width:$screen-md) {
+		padding:200px 0;
+	}
+	h2 {
+		font-weight: $thin;
+		color:#fff;
+		font-size:40px;
+		@media (min-width:$screen-sm) {
+			font-size:52px;
+		}
+		strong {
+			font-weight:$reg;
+		}
+	}
+
+	&#aboutheader {
+		background-image:linear-gradient(
+	      rgba(0, 0, 0, 0.7), 
+	      rgba(0, 0, 0, 0.7)
+	    ), url('../images/about-banner.jpg');
+	}
+	&#serviceheader {
+		background-image:linear-gradient(
+	      rgba(0, 0, 0, 0.5), 
+	      rgba(0, 0, 0, 0.5)
+	    ), url('../images/service-banner.jpg');
+	}
+	&#contactheader {
+		background-image:linear-gradient(
+	      rgba(0, 0, 0, 0.5), 
+	      rgba(0, 0, 0, 0.5)
+	    ), url('../images/contact-banner.jpg');
+	    background-position:bottom right;
+	    @media (min-width:$screen-sm) {
+	    	background-position: bottom 380px right -440px;
+	    }
+	}
+}
+
+#service-strips {
+	.service-strip {
+		background-attachment:fixed;
+		background-size:cover;
+		background-position:center;
+		padding:60px 0;
+		font-size:16px;
+		color:#fff;
+		@media (min-width:$screen-md) {
+			padding:120px 0;
+		}
+		h2 {
+			font-size:52px;
+			font-weight:100;
+			margin:0;
+		}
+		button {
+			background:rgba(206,22,34,0.4);
+			border-radius:30px;
+			border:1px solid #fff;
+			padding:10px 40px;
+			font-size:18px;
+			line-height:18px;
+			margin-top:10px;
+			color:#fff;
+			transition:all .8s;
+			-webkit-transition:all .8s;
+			&:hover {
+				background:rgba(206,22,34,0.7);
+			}
+		}
+		&#bumperrepair {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.65), 
+		      rgba(0, 0, 0, 0.65)
+		    ), url('../images/bumper-strip.jpg');
+		}
+		&#dentremoval {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.45), 
+		      rgba(0, 0, 0, 0.45)
+		    ), url('../images/dent-strip.jpg');
+		}
+		&#trimanddash {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.15), 
+		      rgba(0, 0, 0, 0.15)
+		    ), url('../images/trim-strip.jpg');
+		}
+		&#alloywheel {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.75), 
+		      rgba(0, 0, 0, 0.75)
+		    ), url('../images/alloy-strip.jpg');
+		}
+		&#leatherupholstery {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.5), 
+		      rgba(0, 0, 0, 0.5)
+		    ), url('../images/leather-strip.jpg');
+		}
+		&#glasschips {
+			background-image:linear-gradient(
+		      rgba(0, 0, 0, 0.65), 
+		      rgba(0, 0, 0, 0.65)
+		    ), url('../images/glasschip-strip.jpg');
+		}
+	}
+}
+
+#contactsection {
+	p.contactdetail {
+		font-size:24px;
+		font-weight:300;
+		strong {
+			font-weight:400;
+		}
+	}
+}
