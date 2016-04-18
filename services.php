@@ -21,7 +21,7 @@
                 </div>
             </div>
         </section>
-
+        <a name="service-bumper"></a>
         <section id="service-strips">
             <div id="bumperrepair" class="service-strip">
                 <div class="container">
@@ -34,12 +34,15 @@
                             </div>
                             <div class="col-sm-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a name="service-dent"></a>
             <div id="dentremoval" class="service-strip">
                 <div class="container">
                     <div class="row">
@@ -51,12 +54,15 @@
                             </div>
                             <div class="col-sm-6 col-sm-pull-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a name="service-trim"></a>
             <div id="trimanddash" class="service-strip">
                 <div class="container">
                     <div class="row">
@@ -68,12 +74,15 @@
                             </div>
                             <div class="col-sm-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a name="service-alloy"></a>
             <div id="alloywheel" class="service-strip">
                 <div class="container">
                     <div class="row">
@@ -85,12 +94,15 @@
                             </div>
                             <div class="col-sm-6 col-sm-pull-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a name="service-leather"></a>
             <div id="leatherupholstery" class="service-strip">
                 <div class="container">
                     <div class="row">
@@ -102,12 +114,15 @@
                             </div>
                             <div class="col-sm-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a name="service-glass"></a>
             <div id="glasschips" class="service-strip">
                 <div class="container">
                     <div class="row">
@@ -119,7 +134,9 @@
                             </div>
                             <div class="col-sm-6 col-sm-pull-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio vel neque lacinia dignissim efficitur pulvinar dui. Aenean congue magna interdum nisl volutpat ultrices. Mauris ante risus, congue eget diam id, eleifend volutpat ligula. In in dictum sem. Phasellus imperdiet viverra mauris, eget rutrum ligula accumsan et. Quisque pharetra luctus nisi in cursus. Duis feugiat lorem at ipsum suscipit mattis at vel elit.</p>
-                                <button class="getquote">Get a Quote</button>
+                                <a href="#quoteform">
+                                    <button class="getquote">Get a Quote</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -135,6 +152,7 @@
             </div>
         </div>
 
+        <a name="quoteform"></a> 
         <?php include 'includes/form.php' ?>
 
         <?php include 'includes/callbanner.php' ?>

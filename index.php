@@ -34,42 +34,54 @@
             <div class="col-sm-6 col-md-4 servicepod" id="bumperrepair">
                 <div class="podcontent">
                     <p>Bumper<br/>Repairs</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-bumper">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4 servicepod" id="dentremoval">
                 <div class="podcontent">
                     <p>Dents on<br/>Bodywork</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-dent">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4 servicepod" id="trimanddash">
                 <div class="podcontent">
                     <p>Trim &amp; Dash<br/>Repairs</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-trim">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4 servicepod" id="alloywheel">
                 <div class="podcontent">
                     <p>Alloy Wheel<br/>Refurbishment</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-alloy">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4 servicepod" id="leatherupholstery">
                 <div class="podcontent">
                     <p>Leather &amp;<br/>Upholstery</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-leather">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4 servicepod" id="glasschips">
                 <div class="podcontent">
                     <p>Glass Chips<br/>&amp; Cracks</p>
-                    <button class="readmore">Read More</button>
+                    <a href="services.php#service-glass">
+                        <button class="readmore">Read More</button>
+                    </a>
                 </div>
             </div>
 
